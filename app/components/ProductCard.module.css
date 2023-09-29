@@ -1,0 +1,16 @@
+.cart {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    width: 10rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+@keyframes button-hover {
+    0% {background-color: #baadc6;}
+    50% {background-color: #9258c4}
+    100% {background-color: #771ec6;}
+}
+.cart:hover {
+    animation: button-hover forwards .75s;
+}
