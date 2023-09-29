@@ -1,11 +1,13 @@
 "use client";
 import React from 'react'
 
-const AddToCart = (className: string) => {
+const AddToCart = () => {
   return (
-    <button className={className} onClick={() => console.log("Hello World")}>
-      Add To Cart
-    </button>
+    <div>
+      <button className="btn btn-primary" onClick={() => console.log("Hello World")}>
+        Add To Cart
+      </button>
+    </div>
   )
 }
 
